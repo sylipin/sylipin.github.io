@@ -1,0 +1,356 @@
+.img {
+  border: 0;
+}
+
+.blank20 {
+  height: 20px;
+}
+
+.blank10 {
+  height: 10px;
+}
+
+.blank30 {
+  height: 30px;
+}
+
+.blank5 {
+  height: 5px;
+}
+
+* {
+  font-weight: 400 !important;
+}
+.img-auto {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.text-center{
+  text-align: center;
+}
+ul,
+li {
+  list-style: none;
+}
+.left{
+  float: left;
+}
+h1.entry_title {
+  font-size: 1.6em;
+  line-height: 180%;
+  padding: 0 0 0px 0px;
+  color: #2b2b2b;
+}
+body {
+  font-size: 13px;
+  color: rgba(0,0,0,.8);
+  background: #f8f8f8;
+  text-rendering: optimizeLegibility;
+  line-height: 1.27273;
+  letter-spacing: .005em;
+}
+/* 头部开始 */
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  padding: 0;
+  background-color: #000000;
+  transition: all 0.65s;
+  font-size: 12px;
+}
+/* 导航栏盒子 */
+.navbar_model {
+  background-color: #000000;
+  border-color: #e7e7e7;
+  margin-bottom: 0;
+  border-radius: 0;
+  transition: all 0.65s;
+}
+.navbar-fixed-top {
+  border: 0;
+}
+/* logo图标 */
+.navbar_model .navbar-brand img {
+  transition: all 0.65s;
+}
+.navbar_model .navbar-brand:hover img,
+.navbar_model .navbar-brand:focus img {
+  opacity: 0.5;
+}
+/* 其它城市按钮 */
+.svg-inline--fa {
+  width: 15px;
+  vertical-align: middle;
+}
+
+/* 折叠按钮 */
+.navbar_model .navbar-toggle {
+  border-color: #ddd;
+  border-radius: 0;
+}
+.navbar_model .navbar-toggle:hover,
+.navbar_model .navbar-toggle:focus {
+  border-color: #c3924d;
+}
+.navbar_model .navbar-toggle .icon-bar {
+  background-color: #c3924d;
+}
+.navbar_model .navbar-collapse,
+.navbar_model .navbar-form {
+  border-color: #e7e7e7;
+}
+/* 导航链接 */
+.navbar_model .navbar-nav > li > a {
+  height: 60px;
+  line-height: 30px;
+  color: #b7b7b7;
+  transition: all 0.65s linear;
+}
+.navbar_model .navbar-nav > li > a:hover,
+.navbar_model .navbar-nav > li > a:focus {
+  color: #c3924d;
+  background-color: transparent;
+}
+.navbar_model .navbar-nav > li.active > a {
+  color: #c3924d;
+}
+/* 小于768px屏幕下显示样式 */
+@media (max-width: 767px) {
+  .navbar_model .navbar-nav > li > a {
+    color: black !important;
+    height: 30px;
+  }
+  .navbar_model .navbar-nav > li.active > a {
+    color: #c3924d !important;
+  }
+  .navbar_model .navbar-nav > li > a:hover {
+    color: #c3924d !important;
+  }
+  .navbar_model .navbar-collapse,
+  .navbar_model .navbar-form {
+    border-color: #e7e7e7;
+    background-color: white;
+    margin: 10px;
+    margin-bottom: 0;
+    border-bottom: 0px solid transparent;
+  }
+}
+/* 头部结束 */
+
+/* 中间 start */
+/* 盒子框架 start */
+.panel {
+  margin-bottom: 0px;
+  background-color: #fff;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
+}
+
+.panel-default {
+  -webkit-transition: 0.15s linear;
+  transition: 0.15s linear;
+}
+
+.panel-body {
+  padding: 15px;
+}
+/* 盒子框架 end */
+
+
+/* 第一幅图内容 start */
+.ti_wrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.left a{
+  display: block;
+  margin-right: 10px;
+  color: black;
+  text-decoration: none;
+}
+.left span{
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #c28f48;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.15s ease-out;
+}
+.ti_slide {
+  width: 40000px;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+.TickerNews {
+  width: 100%;
+  height: 50px;
+  line-height: 48px;
+}
+.kuaixunpanel {
+  background: #fff;
+  line-height: 180%;
+  color: #4e4e4e;
+}
+.entry_title {
+  font-size: 1.6em;
+  line-height: 180%;
+  padding: 0 0 0px 0px;
+  color: #2b2b2b;
+}
+.ti_content{
+  width: 8000px;
+  position: relative;
+  float: left;
+  margin-left: 0px;
+  transition: all 0.3s;
+}
+/* 第一幅图 end */
+
+.dotted_line {
+  padding: 0;
+  margin: 5px 0 5px 0;
+  height: 1px;
+  border-bottom: 1px dotted #7d7d7d;
+}
+.list-group {
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+.panel:hover{
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .01);
+  border-color: #eee;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.list-group-item.activeii,
+.list-group-item.activeii:hover,
+.list-group-item.activeii:focus {
+  z-index: 2;
+  color: #fff;
+  background-color: #383838;
+  border-color: #383838;
+  margin-bottom: 20px;
+}
+
+.list-group-item:first-child {
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.list-group-item {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 0px solid #ddd;
+  font-size: 14px;
+  line-height: 180%;
+}
+
+@media (max-width: 768px) {
+  .hellolayout {
+    padding-right: 0px;
+  }
+}
+@media (min-width: 768px) {
+  .col-sm-8 {
+    width: 66.66666667%;
+  }
+}
+.panel-body p {
+  padding-bottom: 20px;
+}
+
+.padding {
+  padding: 20px;
+}
+
+/* 中间 end */
+
+/* footer */
+#footer a {
+  color: #868686;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  color: #c70046;
+}
+
+@media (max-width: 768px) {
+  #footer h3 {
+    font-size: 18px;
+    line-height: 180%;
+    color: #9f9f9f;
+    text-align: center;
+  }
+}
+#footer {
+  width: auto;
+  height: auto;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding: 30px 0 30px 0;
+  color: #a4a4a4;
+  background: #363636;
+}
+
+#footer a.list-group-item {
+  border: 0px;
+  background: #363636;
+  color: #ababab;
+}
+
+#footer a.list-group-item:hover {
+  opacity: 0.2;
+}
+
+#footer .list-group-item {
+  position: relative;
+  display: block;
+  padding: 3px 0px;
+  margin-bottom: -1px;
+  background-color: transparent;
+  border: 0px solid #ddd;
+  font-size: 12px;
+  line-height: 180%;
+}
+#footer .fenge {
+  padding: 0;
+  margin: 15px 0 15px 0;
+  width: 100%;
+  height: 1px;
+  border: 1px solid #212121;
+}
+
+@media (max-width: 768px) {
+  #footer .list-group-item {
+    position: static;
+    display: block;
+    padding-bottom: -1px;
+    background-color: transparent;
+    border: 0px solid #ddd;
+    font-size: 14px;
+    line-height: 180%;
+    text-align: center;
+  }
+}
+
+.copy-right {
+  line-height: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.copy-right p {
+  margin: 0;
+  padding: 0;
+}
+/* footer end */

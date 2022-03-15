@@ -1,0 +1,124 @@
+body {
+	font-size: 13px;
+	color: rgba(0, 0, 0, .8);
+	background: #f8f8f8;
+	text-rendering: optimizeLegibility;
+	line-height: 1.27273;
+	letter-spacing: .005em;
+}
+
+.breadcrumb {
+	padding: 8px 0px;
+	margin-bottom: 20px;
+	list-style: none;
+	background-color: transparent;
+	border-radius: 0px;
+}
+
+.breadcrumb li a {
+	transition: all 0.518s;
+	color: #c3924d;
+}
+
+.breadcrumb li a:hover,
+.breadcrumb li a:focus {
+	color: #23527c;
+	text-decoration: none;
+}
+
+.breadcrumb li.active a {
+	cursor: auto;
+	color: #c2c2c2;
+}
+
+.panel-default {
+	border-color: transparent;
+}
+
+.panel-default:hover {
+    border-color: #eee;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.panelbox .panel-heading {
+	border-color: #eee;
+	box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+}
+
+.panelbox .panel-body {
+	color: #fae2bf;
+	font-size: 13px;
+	line-height: 180%;
+	background: #c89348;
+	display: block;
+	border-left: 5px solid #a77834;
+	border-right: 5px solid #a77834;
+}
+
+.panel-body p {
+	padding-bottom: 20px;
+}
+
+.panel-default {
+	-webkit-transition: 0.15s linear;
+	transition: 0.15s linear;
+	margin-bottom: 0;
+}
+
+.hellospace {
+	padding-right: 15px;
+}
+
+.hellospace img {
+	display: block;
+	border-radius: 6px;
+	width: 136px !important;
+	max-height: 136px !important;
+}
+
+.text_right {
+	font-size: 18px;
+	padding-bottom: 10px;
+	text-shadow: rgba(0, 0, 0, 0.298039) 0px -0.5px 0px;
+	color: red;
+	margin: 0;
+}
+
+.text_right a {
+	color: #616161;
+	transition: all 1s;
+}
+
+.text_right a:hover,
+.text_right a:focus,.text_cen span a:hover {
+	text-decoration: none !important;
+	color: #23527c;
+}
+
+.text_right a:focus {
+	outline: thin dotted;
+	outline: 5px auto -webkit-focus-ring-color;
+	outline-offset: -2px;
+}
+
+.text_cen span {
+	font-size: 12px!important;
+	color: #c2c2c2;
+	line-height: 180%!important;
+}
+
+.text_cen span a {
+	transition: all 0.518s;
+	color: #c3924d;
+}
+
+.item-text {
+    font-size: 12px!important;
+    line-height: 180%!important;
+    color: #bfbfbf!important;
+}
+
+.imgPadding{
+	padding-left: 0;
+}

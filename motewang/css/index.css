@@ -1,0 +1,455 @@
+/* 轮播图的小圆点 */
+.carousel-indicators {
+  bottom: -6px;
+}
+
+.carousel-indicators li {
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+}
+
+.carousel-indicators .active {
+  width: 7px;
+  height: 7px;
+}
+
+.carousel-inner img {
+width:auto;
+}
+/* 内容区的商业服务 */
+
+div.col-xs-12 col-sm-6 col-md-6 col-lg-6 text-center,
+.col-xs-1,
+.col-sm-1,
+.col-md-1,
+.col-lg-1,
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2,
+.col-xs-3,
+.col-sm-3,
+.col-md-3,
+.col-lg-3,
+.col-xs-4,
+.col-sm-4,
+.col-md-4,
+.col-lg-4,
+.col-xs-5,
+.col-sm-5,
+.col-md-5,
+.col-lg-5,
+.col-xs-6,
+.col-sm-6,
+.col-md-6,
+.col-lg-6,
+.col-xs-7,
+.col-sm-7,
+.col-md-7,
+.col-lg-7,
+.col-xs-8,
+.col-sm-8,
+.col-md-8,
+.col-lg-8,
+.col-xs-9,
+.col-sm-9,
+.col-md-9,
+.col-lg-9,
+.col-xs-10,
+.col-sm-10,
+.col-md-10,
+.col-lg-10,
+.col-xs-11,
+.col-sm-11,
+.col-md-11,
+.col-lg-11,
+.col-xs-12,
+.col-sm-12,
+.col-md-12,
+.col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 1px;
+  padding-left: 1px;
+}
+
+#bignavi,
+#bignavii,
+strong {
+  font-family: inherit;
+  border: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+a:hover {
+  text-decoration: none!important;
+}
+
+div.panel.panel-default.biz {
+  color: #c3924d;
+  text-decoration: none;
+}
+
+div.panel.panel-default.biz,
+div.panel.panel-default.mode {
+  padding: 10px 0;
+  margin-bottom: 0px;
+  background: #2d2d2d url(../image/index_biz.png) no-repeat right bottom;
+  background-size: 90%;
+  border-bottom: 3px solid #c89348;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
+  transition: all .5s;
+}
+
+div.panel.panel-default.biz:hover,
+div.panel.panel-default.mode:hover {
+  background-size: 75%;
+  text-decoration: none;
+  opacity: .9;
+}
+
+div.panel-body::before {
+  display: table;
+  content: " ";
+}
+
+div.panel-body::after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+
+.banner a {
+  display: inline-block;
+  border: 2px solid #fff;
+  transition: all .6s;
+}
+
+.banner a:hover {
+  border: 2px solid #fd58b1;
+}
+
+.panel-default {
+  transition: .15s linear;
+}
+
+.panel {
+  margin-bottom: 0px;
+  background-color: #fff;
+  border: 0px solid transparent;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
+}
+
+
+/* 右边区域 */
+
+#bignavii a {
+  color: #303030;
+  display: block;
+}
+
+div.panel.panel-default.mode {
+  background: #c89348 url(../image/index_mode.png) no-repeat left bottom;
+  background-size: 90%;
+  border-bottom: 3px solid #2d2d2d;
+  border-radius: 0px;
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, .05);
+}
+
+div.panel.panel-default.mode h3 {
+  /* font-size: 26px; */
+  color: #fff;
+}
+
+div.panel.panel-default.mode span {
+  font-size: 12px;
+  color: #303030;
+}
+
+#bignavii {
+  font-family: inherit;
+  border: 0;
+  font-size: 100%;
+  font-style: inherit;
+  font-weight: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.panel-default:hover {
+  border-color: #eee;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* 时尚之都 */
+
+.hellospace {
+  padding-right: 15px;
+}
+
+.color_black {
+  color: #616161;
+  transition: all .518s;
+}
+
+.color_black:hover {
+  text-decoration: none;
+}
+
+.color_gray_01 {
+  color: #989898;
+}
+
+.color_gray_01 a {
+  color: #c3924d;
+  transition: all .518s;
+  text-decoration: none;
+}
+
+.color_gray_01 a:focus,
+.color_gray_01 a:hover,
+.pull-right a:hover {
+  color: #23527c;
+}
+
+.btn-gold {
+  color: #fff;
+  background-color: #c89348;
+  border-color: #c89348;
+  box-shadow: rgba(255, 255, 255, 0.14902) 0px 1px 0px inset;
+  text-shadow: rgba(0, 0, 0, 0.298039) 0px -0.5px 0px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  transition: 0.15s linear;
+}
+
+.btn-gold:hover {
+  color: #fff;
+  background-color: #dca24f;
+  border-color: #dca24f;
+}
+
+
+/*新悦红人榜*/
+
+.page-header {
+  padding-bottom: 9px;
+  margin: 40px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.pull-right a {
+  transition: all 0.518s;
+  color: #c3924d;
+  text-decoration: none;
+}
+
+.model_img_box {
+  position: relative;
+  overflow: hidden;
+  /*background: #e60000;*/
+}
+
+.model_img_box img {
+  width: 100%;
+  height: 100%;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+
+.model_img_box .hidden_title {
+  position: absolute;
+  bottom: 0em;
+  width: 100%;
+  background: #444444;
+  color: #fff;
+  margin: 0;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+  font-size: 12px;
+  line-height: 120%;
+  padding: 10px 10px;
+}
+
+.label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0em;
+  line-height: 180%;
+}
+
+.modelinfo {
+  line-height: 160%;
+  color: #696969;
+  padding: 5px 0;
+  max-height: 160px;
+}
+
+span.title_text {
+  color: rgba(0, 0, 0, .44);
+  font-size: 12px;
+}
+
+span.en {
+  color: #9c9c9c;
+  font-size: 12px;
+}
+
+span.title_text {
+  color: rgba(0, 0, 0, .44);
+  font-size: 12px;
+}
+
+span.en {
+  color: #9c9c9c;
+  font-size: 12px;
+}
+
+.model_img_box:hover img {
+  opacity: 0.5;
+}
+
+.model_img_box:hover .hidden_title {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+
+/*@media (min-width: 768px){
+  .col-sm-4 {
+    width: 33.33333333%;
+  }
+}*/
+
+.btn-gold {
+  color: #fff;
+  background-color: #c89348;
+  border-color: #c89348;
+  box-shadow: rgba(255, 255, 255, 0.14902) 0px 1px 0px inset;
+  text-shadow: rgba(0, 0, 0, 0.298039) 0px -0.5px 0px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  transition: 0.15s linear;
+}
+
+.btn-black {
+  color: #fff;
+  background-color: #2c2c2c;
+  border-color: #2c2c2c;
+  box-shadow: rgba(255, 255, 255, 0.14902) 0px 1px 0px inset;
+  text-shadow: rgba(0, 0, 0, 0.298039) 0px -0.5px 0px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+  transition: 0.15s linear;
+}
+
+.btn-black:hover {
+  color: #fff;
+  background-color: #404040;
+  border-color: #404040;
+}
+
+
+/*成都模特网合作项目介绍*/
+
+.widthpanel {
+  background: #fff;
+  line-height: 180%;
+}
+
+.widthpanel h3 {
+  font-size: 1.8em;
+  line-height: 180%;
+  padding: 10px;
+}
+
+.dotted_line {
+  padding: 0;
+  margin: 5px 0 5px 0;
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dotted #d7d7d7;
+}
+
+font-size: 12px;
+line-height: 170%;
+color: #8d8d8d;
+
+}
+.widthpanel span {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 10px 15px!important;
+  background: #f6f6f6!important;
+  cursor: pointer;
+  color: #979797;
+  transition: 0.15s ease-out;
+}
+.label-default {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 10px 15px!important;
+  background: #f6f6f6!important;
+  cursor: pointer;
+  color: #979797;
+  transition: 0.15s ease-out;
+  font-weight: 400;
+}
+.label-default:hover {
+  color: white!important;
+  border-color: #000!important;
+  background: #000!important;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1)!important;
+  }
+
+.widthpanel p span {
+  font-weight: bold;
+    color: #9b9b9b;
+    font-size: 12px;
+    line-height: 190%;
+    cursor: pointer;
+    transition: all .3s;
+    /*border: 1px solid red;*/
+    padding: 10px 10px;
+}
+.widthpanel p:hover span{
+    color: #fff;
+    border-color: #000;
+    background: #000;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+/*.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}*/

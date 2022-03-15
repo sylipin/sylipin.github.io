@@ -1,0 +1,100 @@
+	/* 外层盒子 */
+		.header{
+			width: 100%;
+			position: fixed;
+			z-index: 999;
+			padding: 0;
+			background-color: #000000;
+			transition: all .65s;
+			font-size: 12px;
+		}
+		/* 导航条盒子 */
+		.navbar_model { 
+		    background-color: #000000;
+		    border-color: #e7e7e7;
+		    margin-bottom: 0;
+		    border-radius: 0;
+			transition: all .65s;
+		  }
+		.navbar-fixed-top{
+			border: 0;
+		}
+		.container>.navbar-header{
+			height: 60px;
+		}
+		
+		/* logo图标 */
+		 .navbar_model .navbar-brand img{
+			 transition: all 0.65s;
+		 }
+	    .navbar_model .navbar-brand:hover img,
+	    .navbar_model .navbar-brand:focus img{
+		  opacity: .5;
+	    }
+		
+		/* 导航列表 */
+		.navbar-nav{
+			transition: all 1s; 
+		}
+		
+		/* 导航链接 */
+	    .navbar_model .navbar-nav > li > a { 
+	      height: 60px;
+	      line-height: 30px; 
+	      color: #b7b7b7;
+		  transition: all 0.65s linear;
+	    }
+	    .navbar_model .navbar-nav > li > a:hover,
+	    .navbar_model .navbar-nav > li > a:focus { 
+	      color:#c3924d;
+		  background-color:transparent; 
+	    }
+	    .navbar_model .navbar-nav > li.active > a{
+			color: #c3924d;
+		}
+		
+		/* 其它城市按钮 */
+		.svg-inline--fa{
+				  width: 15px;
+				  vertical-align: middle;
+		}
+		
+		/* 折叠按钮 */
+	    .navbar_model .navbar-toggle {
+	      border-color: #ddd;
+		  border-radius: 0;
+	    }
+	    .navbar_model .navbar-toggle:hover,
+	    .navbar_model .navbar-toggle:focus {
+			border-color: #c3924d;
+	    }
+	    .navbar_model .navbar-toggle .icon-bar {
+	      background-color: #c3924d;
+	    }
+	    .navbar_model .navbar-collapse,
+	    .navbar_model .navbar-form {
+	      border-color: #e7e7e7;
+	    }
+		
+	   /* 小于768px屏幕下显示样式 */
+	    @media (max-width: 767px){
+					 .navbar_model .navbar-nav > li > a{
+						color:black!important; 
+						height: 30px;
+					 }
+					 .navbar_model .navbar-nav > li.active > a{
+					 						color:#c3924d!important; 
+					 						
+					 }
+					 .navbar_model .navbar-nav > li > a:hover{
+					 						color:#c3924d!important; 
+					 						
+					 }
+					.navbar_model .navbar-collapse, .navbar_model .navbar-form{
+					    border-color: #e7e7e7;
+					    background-color: white;
+						margin: 10px;
+						margin-bottom: 0;
+						border-bottom: 0px solid transparent;
+					}
+		}  

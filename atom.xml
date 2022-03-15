@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>sylipin</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://sylipin.github.io.git/"/>
+  <updated>2022-03-15T15:36:56.690Z</updated>
+  <id>https://sylipin.github.io.git/</id>
+  
+  <author>
+    <name>何海龙</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>作品展示</title>
+    <link href="https://sylipin.github.io.git/2020/07/10/first/"/>
+    <id>https://sylipin.github.io.git/2020/07/10/first/</id>
+    <published>2020-07-10T06:15:06.408Z</published>
+    <updated>2022-03-15T15:36:56.690Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="HTML静态页面类"><a href="#HTML静态页面类" class="headerlink" title="HTML静态页面类"></a>HTML静态页面类</h2><h2 id="bootstrsp网页"><a href="#bootstrsp网页" class="headerlink" title="bootstrsp网页"></a>bootstrsp网页</h2><ul><li><blockquote><p><a href="https://sylipin.github.io/../../../motewang/html/index.html" target="_blank" rel="noopener">模特网</a></p></blockquote></li></ul><h2 id="css特效类"><a href="#css特效类" class="headerlink" title="css特效类"></a>css特效类</h2><h2 id="JavaScript类"><a href="#JavaScript类" class="headerlink" title="JavaScript类"></a>JavaScript类</h2><h2 id="jQuery类"><a href="#jQuery类" class="headerlink" title="jQuery类"></a>jQuery类</h2><h2 id="VUE类"><a href="#VUE类" class="headerlink" title="VUE类"></a>VUE类</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;HTML静态页面类&quot;&gt;&lt;a href=&quot;#HTML静态页面类&quot; class=&quot;headerlink&quot; title=&quot;HTML静态页面类&quot;&gt;&lt;/a&gt;HTML静态页面类&lt;/h2&gt;&lt;h2 id=&quot;bootstrsp网页&quot;&gt;&lt;a href=&quot;#bootstrsp网页&quot; c
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
